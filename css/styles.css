@@ -4068,6 +4068,7 @@ textarea.form-control-lg {
 }
 
 .nav-link {
+	align-text: right;
   display: inline-block;
   padding: 0.5rem 1rem;
   color: #64a19d;
@@ -4147,11 +4148,11 @@ textarea.form-control-lg {
 }
 
 .navbar {
-  position: relative;
+  position: fixed;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
+
+	justify-content: space-between;
   padding-top: 0rem;
   padding-bottom: 0rem;
 }
@@ -4164,7 +4165,7 @@ textarea.form-control-lg {
 .navbar > .container-xxl {
   display: flex;
   flex-wrap: inherit;
-  align-items: center;
+  align-items: right;
   justify-content: space-between;
 }
 .navbar-brand {
@@ -4174,6 +4175,7 @@ textarea.form-control-lg {
   font-size: 1.25rem;
   text-decoration: none;
   white-space: nowrap;
+	align-content: right;
 }
 .navbar-nav {
   display: flex;
@@ -4181,10 +4183,12 @@ textarea.form-control-lg {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+	align-content: right;
 }
 .navbar-nav .nav-link {
   padding-right: 0;
   padding-left: 0;
+	align-content: right;
 }
 .navbar-nav .dropdown-menu {
   position: static;
@@ -4199,14 +4203,15 @@ textarea.form-control-lg {
   flex-basis: 100%;
   flex-grow: 100;
   align-items: center;
-	
+	background-color: whitesmoke;	
 }
 
 .navbar-toggler {
   padding: 10rem 10rem;
   font-size: 1rem;
   line-height: 100;
-  background-color: transparent;
+	
+  background-color: whitesmoke;
   border: 1px solid transparent;
   border-radius: 5rem;
   transition: box-shadow 0.15s ease-in-out;
@@ -11492,8 +11497,10 @@ body {
 #mainNav {
   min-height: 2.5rem;
   background-color: #fff;
+	postion-items: center;
 }
 #mainNav .navbar-toggler {
+	align-items: center;
   font-size: 40%;
   padding: 2.0rem;
   color: #64a19d;
@@ -11510,11 +11517,11 @@ body {
 #mainNav .navbar-nav .nav-item:hover {
   color: fade(#fff, 80%);
   outline: none;
-  background-color: transparent;
+  background-color: whitesmoke;
 }
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
   outline: none;
-  background-color: transparent;
+  background-color: bg-primary;
 }
 @media (min-width: 992px) {
   #mainNav {
@@ -11522,7 +11529,8 @@ body {
     padding-top: 2.0;
     padding-bottom: 0;
     border-bottom: 2.0;
-    background-color: transparent;
+    background-color: #64a19d;
+	  align-items: center;
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
@@ -11784,4 +11792,8 @@ h2 {
 .mw-75 {
 }
 .min-vw-30 {
+}
+.align-right {
+}
+.align-content-right {
 }

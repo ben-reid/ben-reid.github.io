@@ -4203,9 +4203,9 @@ textarea.form-control-lg {
 }
 
 .navbar-toggler {
-  padding: 0rem 0rem;
+  padding: 10rem 10rem;
   font-size: 1rem;
-  line-height: 1;
+  line-height: 100;
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 5rem;

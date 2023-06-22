@@ -4197,8 +4197,9 @@ textarea.form-control-lg {
 
 .navbar-collapse {
   flex-basis: 100%;
-  flex-grow: 1;
+  flex-grow: 100;
   align-items: center;
+	
 }
 
 .navbar-toggler {
@@ -4207,7 +4208,7 @@ textarea.form-control-lg {
   line-height: 1;
   background-color: transparent;
   border: 1px solid transparent;
-  border-radius: 0.25rem;
+  border-radius: 5rem;
   transition: box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -11489,14 +11490,14 @@ body {
 }
 
 #mainNav {
-  min-height: 3.5rem;
+  min-height: 2.5rem;
   background-color: #fff;
 }
 #mainNav .navbar-toggler {
   font-size: 40%;
-  padding: 0rem;
+  padding: 2.0rem;
   color: #64a19d;
-  border: 1px solid #64a19d;
+  border: 3px solid #64a19d;
 }
 #mainNav .navbar-toggler:focus {
   outline: none;
@@ -11504,7 +11505,7 @@ body {
 #mainNav .navbar-brand {
   color: #000;
   font-weight: 70;
-  padding: 0.9rem 0;
+  padding: 2rem 0;
 }
 #mainNav .navbar-nav .nav-item:hover {
   color: fade(#fff, 80%);
@@ -11518,9 +11519,9 @@ body {
 @media (min-width: 992px) {
   #mainNav {
 	  
-    padding-top: 0;
+    padding-top: 2.0;
     padding-bottom: 0;
-    border-bottom: none;
+    border-bottom: 2.0;
     background-color: transparent;
     transition: background-color 0.3s ease-in-out;
   }
@@ -11541,6 +11542,7 @@ body {
   }
   #mainNav.navbar-shrink {
     background-color: #fff;
+	  
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #000;
@@ -11579,6 +11581,7 @@ body {
   height: 100%;
   min-height: 20rem;
   padding: padding-left: 0px;
+	padding: padding-top: 500px;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.01) 10%, rgba(0, 0, 0, 0.7) 100%, #000 100%), URL(file:///C:/Users/reidc/Documents/BENOIT_REID_Site%20web/HEADER%20copie.png);
   background-position: center;
   background-repeat: no-repeat;
